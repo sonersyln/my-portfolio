@@ -1,6 +1,6 @@
 import React from "react";
 import SkilsItem from "./SkilsItem";
-import SkilsLanguage from "./SkilsLanguage";
+import SkilsLanguage from "../EducationSkill/SkilsLanguage";
 
 //Ne kadar skill ve level eklersen SkilsLanguage componentinde interface belirt
 
