@@ -8,12 +8,12 @@ import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 
 const Hero: React.FC = () => {
     const handleDownload = () => {
-      window.open('https://sonerseylan.com.tr/cv/Soner_Seylan_Ozgecmis.pdf', '_blank');
+      window.open('https://sonerseylan.com.tr/cv/Soner_Seylan.pdf', '_blank');
     };
 
     
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpeg')] bg-cover bg-center ">
+    <div className="h-[88vh] bg-[url('/images/banner.jpeg')] mt-[10vh] bg-cover bg-center ">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
