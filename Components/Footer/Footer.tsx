@@ -12,10 +12,11 @@ const Footer = () => {
           </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white]">
-              Address
+              Adres
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              Lorem ipsum dolor sit amet.
+              Küçükçekmece <br />
+              İstanbul
             </p>
           </div>
         </div>
@@ -26,7 +27,7 @@ const Footer = () => {
           </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white]">
-              Phone
+              Telefon
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
               +905344438897
@@ -40,7 +41,7 @@ const Footer = () => {
           </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white]">
-              Send Us Email
+              E-mail
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
               syln.soner@gmail.com

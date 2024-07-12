@@ -1,5 +1,7 @@
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import React from "react";
+import { Link } from 'react-scroll';
+
 
 interface Props {
   nav: boolean;
@@ -16,12 +18,16 @@ const MobileNav = ({ nav, closeNav }: Props) => {
       }
     >
       <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center">
-        <div className="nav-link-mobile">HOME</div>
-        <div className="nav-link-mobile">SERVICES</div>
-        <div className="nav-link-mobile">ABOUT</div>
-        <div className="nav-link-mobile">PROJECT</div>
-        <div className="nav-link-mobile">BLOG</div>
-        <div className="nav-link-mobile">CONTACT</div>
+        <div className="nav-link-mobile" onClick={closeNav}>HOME</div>
+        <Link to="aboutSection" smooth={true} duration={500} className="nav-link-mobile" onClick={closeNav}>ABOUT</Link>
+        
+        <Link to="servicesSection" smooth={true} duration={500} className="nav-link-mobile" onClick={closeNav}>SERVICES</Link>
+
+
+        
+        <Link to="projectSection" smooth={true} duration={500} className="nav-link-mobile" onClick={closeNav}>PROJECTS</Link>
+        
+        <Link to="footerSection" smooth={true} duration={500} className="nav-link-mobile" onClick={closeNav}>CONTACT</Link>
       </div>
       <div 
       onClick={closeNav} 

@@ -5,7 +5,7 @@ const Testimonial = () => {
   return (
     <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]">
       <h1 className="heading">
-        Reference <span className="text-yellow-400">Review</span>
+        Referans <span className="text-yellow-400">Yorumları</span>
       </h1>
       <div className="pt-[5rem] pb-[4rem] w-[80%] mx-auto">
         <TestimonialSlider />

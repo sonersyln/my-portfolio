@@ -8,8 +8,8 @@ import Services from "@/Components/MyServices/Services";
 import Skils from "@/Components/EducationSkill/Skils";
 import Testimonial from "@/Components/ReferenceReview/Testimonial";
 import React, { useEffect, useState } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -17,27 +17,22 @@ const HomePage = () => {
   const closeNav = () => setNav(false);
 
   useEffect(() => {
-
-
     AOS.init({
-      disable: false, 
-      initClassName: 'aos-init',
-      animatedClassName: 'aos-animate',
-      useClassNames: false, 
-      disableMutationObserver: false, 
-      debounceDelay: 50, 
-      throttleDelay: 99, 
-      
-    
-      
-      offset: 120, 
+      disable: false,
+      initClassName: "aos-init",
+      animatedClassName: "aos-animate",
+      useClassNames: false,
+      disableMutationObserver: false,
+      debounceDelay: 50,
+      throttleDelay: 99,
+
+      offset: 120,
       delay: 0,
-      duration: 400, 
-      easing: 'ease', 
-      once: true, 
-      mirror: false, 
-      anchorPlacement: 'top-bottom', 
-    
+      duration: 400,
+      easing: "ease",
+      once: true,
+      mirror: false,
+      anchorPlacement: "top-bottom",
     });
   }, []);
 
@@ -49,12 +44,21 @@ const HomePage = () => {
         <Hero />
         <div className="relative z-[30]">
         
-          <About />
-          <Services />
+          <div id="aboutSection">
+            <About />
+          </div>
+          <div id="servicesSection">
+            <Services />
+          </div>
           <Skils />
-          <Projects />
+          <div id="projectSection">
+            <Projects />
+          </div>
           <Testimonial />
-          <Footer />
+          <div id="footerSection">
+            <Footer />
+          </div>
+        
           </div>
       </div>
     </div>

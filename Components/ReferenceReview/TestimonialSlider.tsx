@@ -37,19 +37,25 @@ const TestimonialSlider = () => {
         image="/images/feyza.jpg"
         name="Feyza Karanfil Erat"
         role="Software Developer"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="Liderlik becerileri ile ekibi yönlendirme ve motive etme konusunda başarılı. Proje yönetimi ve ekip koordinasyonu konularında yetkin."
       />
       <ReferenceReview
         image="/images/seyhmus.jpg"
         name="Şeyhmus Erol"
         role="Software Developer"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="Kendi kendine öğrenme yeteneği ve teknolojilere olan merakı ile her zaman güncel ve yenilikçi çözümler üretiyor. Yeni konuları hızla kavrayarak projeye değer katıyor."
       />
       <ReferenceReview
         image="/images/yagmur.jpg"
         name="Yağmur Çurku"
-        role="Software Developer"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        role="Business Analyst"
+        description="Harika bir takım oyuncusu. İletişimi güçlü ve her zaman yardıma hazır bir tutum sergiliyor. Fikirlerini açıkça ifade ediyor ve projeye yeni bakış açıları kazandırıyor."
+      />
+      <ReferenceReview
+        image="/images/gurkanilisen.png"
+        name="Gürkan İlişen"
+        role="Senior Product Specialist"
+        description="Kendisi bizim projemizde yaklaşık 6 ay eğitim almış olup, bu eğitim sırasında bir proje geliştirmesi yapmıştır. Projeyi bir ekip halinde planlayıp organize olarak gerçekleştirdiler. Ekip çalışması ve proje yönetim süreçlerini de bu süreçte geliştirmiş oldu. Java’nın yanı sıra takım çalışmasına uygun ve araştırıp öğrenme deneyimi güçlü bir karakterdir. Kendisine gözüm kapalı kefilimdir."
       />
     </Carousel>
   );

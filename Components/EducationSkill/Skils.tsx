@@ -8,47 +8,55 @@ const Skils = () => {
   return (
     <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]">
       <h1 className="heading">
-        Education & <span className="text-yellow-400">Skill</span>
+        EĞİTİM & <span className="text-yellow-400">BECERİLER</span>
       </h1>
       <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
         <div>
           <SkilsItem
-            title="React Developer"
-            year="2014 - 2018"
-            description="Java ile nesne yönelimli programlama ve backend geliştirme."
+            title="Codecademy"
+            year="2023 - 2024"
+            description="Java & React Full Stack eğitimini tamamladım."
           />
           <SkilsItem
-            title="JAVA Developer"
+            title="İstanbul Kodluyor (Tobeto)"
             year="2016 - 2020"
-            description="Java ile nesne yönelimli programlama ve backend geliştirme."
+            description="Java & React Full Stack eğitimini tamamladım."
           />
           <SkilsLanguage
-            skill1="html"
-            skill2="css"
-            skill3="javascript"
-            level1="w-[91%]"
-            level2="w-[88%]"
-            level3="w-[80%]"
+            skill1="Java"
+            skill2="Spring Boot"
+            skill3="Git & GitHub"
+            skill4="Hibernate"
+            skill5="Linux"
+            level1="w-[81%]"
+            level2="w-[77%]"
+            level3="w-[90%]"
+            level4="w-[79%]"
+            level5="w-[60%]"
           />
         </div>
         <div>
           <SkilsItem
-            title="NextJs Developer"
-            year="2021 - 2022"
-            description="React ile zengin kullanıcı arayüzleri geliştirme konusunda uzmanım."
+            title="BAYKAR TEKNOLOJİ"
+            year="2022"
+            description="Kontrol Güdüm ve Seyrüsefer biriminde Servo Kontrol Takımında çalıştım."
           />
           <SkilsItem
-            title="NodeJs Developer"
-            year="2019 - 2020"
-            description="Java ile nesne yönelimli programlama ve backend geliştirme."
+            title="İSTANBUL GELİŞİM ÜNİVERSİTESİ"
+            year="2016 - 2021"
+            description="Mühendislik Fakültesi/Elektrik Elektronik Mühendisliği mezunuyum."
           />
           <SkilsLanguage
-            skill1="React Js"
-            skill2="Next Js"
-            skill3="TypeScript"
-            level1="w-[71%]"
-            level2="w-[78%]"
-            level3="w-[70%]"
+            skill1="React"
+            skill2="TypeScript"
+            skill3="CSS"
+            skill4="CentOS"
+            skill5="matlab"
+            level1="w-[60%]"
+            level2="w-[55%]"
+            level3="w-[55%]"
+            level4="w-[70%]"
+            level5="w-[80%]"
           />
         </div>
       </div>
